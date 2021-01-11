@@ -36,3 +36,7 @@ class Glow:
                     self.pm.write_float(self.glow_manager + self.entity_glow * 0x38 + 0xC, float(0))
                     self.pm.write_float(self.glow_manager + self.entity_glow * 0x38 + 0x10, float(1))
                     self.pm.write_int(self.glow_manager + self.entity_glow * 0x38 + 0x24, 1)
+
+
+if __name__ == '__main__':
+    Glow()
